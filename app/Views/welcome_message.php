@@ -11,7 +11,7 @@
   <div class="p-8 bg-white rounded-xl shadow-lg text-center max-w-md">
     <h1 class="text-3xl font-bold text-blue-600 mb-4">
       <!-- 🎨 Tailwind v4 is Working! -->
-      Perfect smile dental
+      Perfect smile dental Management System
     </h1>
     <p class="text-gray-700 mb-6">
       You’ve successfully integrated <span class="font-semibold">Tailwind CSS</span> into your CodeIgniter project.
