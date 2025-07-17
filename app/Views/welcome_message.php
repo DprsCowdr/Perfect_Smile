@@ -11,7 +11,7 @@
   <div class="p-8 bg-white rounded-xl shadow-lg text-center max-w-md">
     <h1 class="text-3xl font-bold text-blue-600 mb-4">
       <!-- 🎨 Tailwind v4 is Working! -->
-      Perfect smile dental Management System
+      Perfect smile dental clinic Management System
     </h1>
     <h1 class="text-3xl font-bold text-blue-600 mb-4 bg-red-500">
   🎨 Tailwind v4 is Working!
