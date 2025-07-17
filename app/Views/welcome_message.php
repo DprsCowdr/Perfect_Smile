@@ -14,7 +14,7 @@
       Perfect smile dental Management System
     </h1>
     <p class="text-gray-700 mb-6">
-      You’ve successfully integrated <span class="font-semibold">Tailwind CSS</span> into your CodeIgniter project.
+      Brandon and JOhnbert <span class="font-semibold">Tailwind CSS</span> into your CodeIgniter project.
     ]
     </p>
     <h1 class="text-3xl font-bold text-blue-600 mb-4 bg-red-500">
