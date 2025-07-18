@@ -36,6 +36,8 @@
         </div>
         <button type="submit">Login</button>
     </form>
+    
+    <p><a href="/register">Don't have an account? Register here</a></p>
 </div>
 
 <?= view('templates/footer') ?>
