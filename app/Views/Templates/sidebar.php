@@ -52,7 +52,7 @@ $userType = $user['user_type'] ?? null;
         <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-file-medical-alt"></i><span>Records</span></a></li>
     <?php elseif ($userType === 'staff'): ?>
         <div class="sidebar-heading">Management</div>
-        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-calendar-check"></i><span>Appointments</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="<?= base_url('staff/appointments') ?>"><i class="fas fa-calendar-check"></i><span>Appointments</span></a></li>
         <li class="nav-item"><a class="nav-link" href="<?= base_url('staff/patients') ?>"><i class="fas fa-users"></i><span>Patients</span></a></li>
         <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-file-invoice-dollar"></i><span>Invoices</span></a></li>
     <?php elseif ($userType === 'patient'): ?>

@@ -38,3 +38,41 @@ $routes->group('staff/patients', function($routes) {
     $routes->get('delete/(:num)', 'Patient::delete/$1');
     $routes->get('search', 'Patient::search');
 });
+
+// Admin Appointment Routes
+$routes->group('admin/appointments', function($routes) {
+    $routes->get('/', 'Appointment::index');
+    $routes->get('create', 'Appointment::create');
+    $routes->post('store', 'Appointment::store');
+    $routes->get('show/(:num)', 'Appointment::show/$1');
+    $routes->get('edit/(:num)', 'Appointment::edit/$1');
+    $routes->post('update/(:num)', 'Appointment::update/$1');
+    $routes->get('delete/(:num)', 'Appointment::delete/$1');
+    $routes->post('cancel/(:num)', 'Appointment::cancel/$1');
+    $routes->get('search', 'Appointment::search');
+    $routes->get('calendar', 'Appointment::calendar');
+});
+
+// Staff Appointment Routes (same functionality as admin)
+$routes->group('staff/appointments', function($routes) {
+    $routes->get('/', 'Appointment::index');
+    $routes->get('create', 'Appointment::create');
+    $routes->post('store', 'Appointment::store');
+    $routes->get('show/(:num)', 'Appointment::show/$1');
+    $routes->get('edit/(:num)', 'Appointment::edit/$1');
+    $routes->post('update/(:num)', 'Appointment::update/$1');
+    $routes->get('delete/(:num)', 'Appointment::delete/$1');
+    $routes->post('cancel/(:num)', 'Appointment::cancel/$1');
+    $routes->get('search', 'Appointment::search');
+    $routes->get('calendar', 'Appointment::calendar');
+});
+
+// Doctor Appointment Routes (limited functionality)
+$routes->group('doctor/appointments', function($routes) {
+    $routes->get('/', 'Appointment::index');
+    $routes->get('show/(:num)', 'Appointment::show/$1');
+    $routes->get('edit/(:num)', 'Appointment::edit/$1');
+    $routes->post('update/(:num)', 'Appointment::update/$1');
+    $routes->get('search', 'Appointment::search');
+    $routes->get('calendar', 'Appointment::calendar');
+});
